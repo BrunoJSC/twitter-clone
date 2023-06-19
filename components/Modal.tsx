@@ -48,7 +48,7 @@ const Modal: React.FC<ModalProps> = ({
                 onClick={handleClose}
                 className="p-1 ml-auto border-0 hover:opacity-70 transition"
               >
-                <AiOutlineClose size={20} />
+                <AiOutlineClose size={20} color="white" />
               </button>
             </div>
 
