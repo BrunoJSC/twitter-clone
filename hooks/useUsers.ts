@@ -7,9 +7,8 @@ const useUsers = () => {
 
   return {
     data,
-    currentUser: data,
-    isLoading,
     error,
+    isLoading,
     mutate,
   };
 };
